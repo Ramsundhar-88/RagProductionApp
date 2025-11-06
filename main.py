@@ -125,4 +125,4 @@ async def rag_query_pdf_ai(ctx: inngest.Context):
 
 # Initialize FastAPI app
 app = FastAPI()
-inngest.fast_api.serve(app, inngest_client, [rag_inngest_pdf])
+inngest.fast_api.serve(app, inngest_client, [rag_inngest_pdf,rag_query_pdf_ai])
