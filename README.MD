@@ -11,4 +11,4 @@ docker run -d \
   qdrant/qdrant
 
 
-You can add your own pdf and get information from it 
+You can add your own pdf and get information from it...
